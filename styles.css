@@ -98,18 +98,19 @@ h1 {
     border-color: green;
 }
 
-#feedback-container {
+#star-area {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
     margin-top: 20px;
+    padding-bottom: 40px;
 }
 
 #congratulations {
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin-bottom: 10px;
 }
 
 .star {
@@ -119,16 +120,18 @@ h1 {
 
 #restart-button {
     padding: 10px 20px;
-    font-size: 20px;  /* Increase this value for larger text */
+    font-size: 20px;
     cursor: pointer;
+    border-radius: 10px;
     background-color: white;
     color: black;
-    border: 2px solid black;  /* Add a border for better visibility against the white background */
-    font-weight: bold;  /* Make the text bold */
-    text-transform: uppercase;  /* Make the text all caps if desired */
+    border: 2px solid black;
+    font-weight: bold;
+    text-transform: uppercase;
 }
+
 #restart-button:hover {
-    background-color: #f0f0f0;  /* Slightly darker on hover */
+    background-color: #f0f0f0;
 }
 
 @media (max-width: 768px) {
@@ -140,9 +143,9 @@ h1 {
     #level-selection img {
         width: 60%;
         max-width: 320px;
-        margin-bottom: 5px; /* Kokeile eri negatiivisia arvoja */
+        margin-bottom: 5px;
     }
     #level-selection img:last-child {
-        margin-bottom: 0; /* Poista negatiivinen margin viimeiseltä kuvalta */
+        margin-bottom: 0;
     }
 }
